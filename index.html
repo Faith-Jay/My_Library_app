@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd5d6eeda4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <header>
+    <h1>My Library App</h1>
+ </header>
+ <main>
+   
+   <div class="side-bar">
+      <fieldset>
+         <form action="" class="add-book-form">
+            <label for="title">Book Title:</label>
+            <input type="text" name="title" id="title">
+            <label for="author">Book Author:</label>
+            <input type="text" name="author" id="author">
+            <label for="pages">Number of pages:</label>
+            <input type="number" name="pages" id="pages">
+            <label for="isRead">Have you read the book?</label>
+            <input type="checkbox" checked id="isRead">
+            <button type="submit" id="add-book-btn">Add book <i class="fa-brands fa-plus"></i></button>
+         </form>
+      </fieldset>
+   </div>
+   <div class="main-board">
+      <!-- <div class="book-item">
+         <h4 class="book-title">Some book</h4>
+         <p class="book-author">Some author</p>
+         <p class="no-of-pages">22</p>
+         <p class="read-status">true</p>
+         <i class="fa-regular fa-trash-can delete-icon"></i>
+      </div> -->
+   </div>
+ </main>
+ <footer>
+    <p>Copyright © 2023 Faith-Jay <a href="https://github.com/Faith-Jay" target="_blank"><i class="fa-brands fa-github"></i></a> </p>
+ </footer>
+
+
+ <script src="app.js"></script>
+ <script src="test.js"></script>
+</body>
+</html>
